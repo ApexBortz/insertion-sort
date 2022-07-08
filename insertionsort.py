@@ -9,6 +9,7 @@ def is_sorted(li):
         
     return True
 
+
 def insertion_sort(li):
     # iterate over the entire list, loop downward when we find a value that is smaller than what is to the left
     for index in range(len(li)):
